@@ -1,0 +1,347 @@
+// Bootstrap
+// =========
+
+// You can include less bootstrap components if you like by
+// importing the .less files you want directly, instead of
+// the main bootstrap/bootstrap.less file.
+//
+// Bootstrap can be removed entirely by deleting this line.
+
+@import "bootstrap/bootstrap.less";
+
+// The easiest way to customise Bootstrap variables while
+// being able to easily override the source files with new
+// versions is to override the ones you want in another file.
+//
+// You can also add your own custom variables to this file for
+// use in your site stylesheets.
+
+@import "site/variables.less";
+
+
+// Site Styles
+// ===========
+
+// Add your own site style includes here
+@import "site/layout.less";
+
+body, html {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	/* Margin bottom by footer height */
+	margin-bottom: 100px;
+}
+
+.body-container {
+	width: auto;
+	max-width: 100%;
+}
+
+.row { margin: 0;}
+.hidden { display: none; }
+.no-relative { position: static; }
+.thin { font-weight: 300; }
+
+::-webkit-input-placeholder { font-weight: 300; }
+:-moz-placeholder { font-weight: 300; }
+::-moz-placeholder { font-weight: 300; }
+:-ms-input-placeholder { font-weight: 300; }
+
+.footer {
+	background-color: #ff3334;
+	color: #ffffff;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	/* height: 100px; */
+	min-height: 100px;
+}
+
+.header {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	height: auto;
+
+	.container {
+		position: relative;
+	}
+
+	.header-logo {
+		width: 100%;
+	
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	.header-menu {
+		list-style-type: none;
+		position: absolute;
+		bottom: 20px;
+		right: 0;
+		-webkit-padding-start: 0;
+		padding: 0;
+		padding-right: 15px;
+
+		>li {
+			float: left;
+			padding: 0 20px;
+
+			&:last-child { padding-right: 0; }
+
+			>a {
+				color: #999999;
+				text-transform: uppercase;
+				font-size: 14px;
+				font-weight: 400;
+				border-bottom: 3px solid #ffffff;
+				padding: 5px;
+
+				&:hover {
+					text-decoration: none;
+					border-bottom: 3px solid #ff3334;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+}
+
+.banner {
+	height: 350px;
+	background: url('../images/P3010934.jpg') no-repeat center center;
+	background-size: cover;
+
+	.container {
+		text-align: center;
+		vertical-align: center;
+		height: 100%;
+		position: relative;
+		padding: 0;
+	}
+
+	.slogan {
+		position: absolute;
+		bottom: 0;
+		color: #ffffff;
+		text-align: left;
+
+		.headline {
+			font-size: 30px;
+			background-color: rgba(0,0,0,0.7);
+			padding: 10px 15px;
+			margin: 0;
+			font-weight: 300;
+			display: block;
+		}
+
+		.content {
+			font-size: 20px;
+			background-color: rgba(0,0,0,0.5);
+			padding: 10px;
+			margin: 0;
+			font-weight: 300;
+			display: block;
+			margin-bottom: 10px;
+		}
+	}
+}
+
+.countdown {
+	height: 120px;
+	background-color: #ff3334;
+
+	.upcoming-events {
+		height: 120px;
+		color: #ffffff;
+		text-align: center;
+
+		p {
+			font-size: 20px;
+			line-height: 120px;
+			margin: 0;
+			text-transform: uppercase;
+		}
+	}
+
+	.calendar-icon {
+		font-size: 45px;
+		line-height: 120px;
+		color: white;
+		text-align: center;
+	}
+
+	.box {
+		margin-top: 25px;
+		border-right: 1px solid #ffffff;
+		text-align: center;
+
+		.value {
+			font-size: 30px;
+			font-weight: 600;
+			color: #ffffff;
+			display: block;
+		}
+
+		.label {
+			font-size: 16px;
+			color: #ffffff;
+			display: block;
+			text-transform: uppercase;
+			font-weight: 300;
+			padding: 0;
+		}
+	}
+
+	.view-events {
+		height: 120px;
+		color: #ffffff;
+		text-align: center;
+		line-height: 120px;
+
+		p {
+			font-size: 16px;
+			margin: 0;
+			text-transform: uppercase;
+		}
+	}
+}
+
+._content {
+	padding: 10px 0;
+
+	._section-header {
+		width: 100%;
+		text-align: center;
+	
+		.title {
+			font-size: 30px;
+			color: #ff3334;
+			font-weight: 600;
+		}
+	}
+
+	._paragraph {
+		padding: 10px 0;
+		color: #333333;
+	}
+}
+
+.border-caret {
+	width: 100%;
+	border-top: 4px solid #cccccc;
+	text-align: center;
+
+	i {
+		color: #cccccc;
+		font-size: 30px;
+		line-height: 5px;
+	}
+
+	&.red {
+		border-top: 4px solid #ff3334;
+
+		i { color: #ff3334; }
+	}
+}
+
+.about-fbc {
+	padding: 30px 0;
+
+	.thumbnail {
+		border: 0;
+		margin: 0;
+	
+		.caption {
+			padding: 20px 0;
+		
+			h3 {
+				font-size: 35px;
+				line-height: 35px;
+				margin: 0;
+				font-weight: 600;
+				color: #ff3334;
+			}
+
+			.grey {
+				color: #cccccc;
+			}
+		}
+	}
+}
+
+.join-sg {
+	padding: 30px 0;
+	background: url('../images/bg-1.jpg');
+
+	.title {
+		color: #ff3334;
+		font-size: 30px;
+		text-transform: uppercase;
+	}
+}
+
+blockquote {
+
+	p {
+		color: #cccccc;
+		font-weight: 300;
+	}
+
+	footer {
+		color: #ff3334;
+	}
+}
+
+.latest-box {
+	padding: 20px 0;
+
+	.box {
+
+		.title-header {
+			border-top: 3px solid #cccccc;	
+			border-bottom: 1px solid #cccccc;
+			padding: 7px 0;
+			text-align: center;
+
+			.title {
+				color: #ff3334;
+				font-size: 30px;
+				text-transform: uppercase;
+			}
+		}
+
+		.entries {
+			padding: 30px 0;
+
+			.entry {
+				padding: 10px 0;
+				padding-left: 80px;
+
+				.title {
+					color: #ff3334;
+					font-size: 18px;
+					font-weight: 300;
+					display: block;
+				}
+
+				.date {
+					color: #333333;
+					font-size: 12px;
+					display: block;
+				}
+			}
+		}
+	}
+}

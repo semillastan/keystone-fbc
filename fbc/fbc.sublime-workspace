@@ -1,0 +1,1403 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"res",
+				"results"
+			],
+			[
+				"dailyD",
+				"dailyDevotion"
+			],
+			[
+				"cate",
+				"categories"
+			],
+			[
+				"start_",
+				"start_year"
+			],
+			[
+				"getOccup",
+				"getOccupationString"
+			],
+			[
+				"getInd",
+				"getIndustryTitle"
+			],
+			[
+				"indus",
+				"industry_code"
+			],
+			[
+				"occu",
+				"occupationModal"
+			],
+			[
+				"occ",
+				"occupationModal"
+			],
+			[
+				"getOcc",
+				"getOccupationString"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"state",
+				"states"
+			],
+			[
+				"occupa",
+				"occupation_code"
+			],
+			[
+				"start",
+				"start_year"
+			],
+			[
+				"emplo",
+				"employer_name"
+			],
+			[
+				"W",
+				"WorkInfo"
+			],
+			[
+				"header",
+				"header_data"
+			],
+			[
+				"transactionType",
+				"listTransactionType"
+			],
+			[
+				"transa",
+				"transactionItems"
+			],
+			[
+				"transaction",
+				"transactionItems"
+			],
+			[
+				"transac",
+				"transactionItems"
+			],
+			[
+				"tr",
+				"transactionId"
+			],
+			[
+				"prod",
+				"products"
+			],
+			[
+				"getProd",
+				"getProductInfo"
+			],
+			[
+				"order",
+				"orders"
+			],
+			[
+				"fields",
+				"fieldsToSelect"
+			],
+			[
+				"mem",
+				"member"
+			],
+			[
+				"member",
+				"membershipId"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"get",
+				"getList"
+			],
+			[
+				"only",
+				"onlyCurrency"
+			],
+			[
+				"page",
+				"PageCtrl"
+			],
+			[
+				"massD",
+				"massDeleteCategories"
+			],
+			[
+				"massMo",
+				"massMoveForm"
+			],
+			[
+				"mass",
+				"massUpdateForm"
+			],
+			[
+				"alert",
+				"alertMessage"
+			],
+			[
+				"post",
+				"postUrl"
+			],
+			[
+				"cn",
+				"console"
+			],
+			[
+				"show",
+				"showCategoryForm"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"ca",
+				"category"
+			],
+			[
+				"ima",
+				"image"
+			],
+			[
+				"fa-",
+				"fa-circle-o-notch"
+			],
+			[
+				"visi",
+				"visible"
+			],
+			[
+				"vis",
+				"visible"
+			],
+			[
+				"s",
+				"sequence"
+			],
+			[
+				"prd",
+				"product"
+			],
+			[
+				"selec",
+				"selectedProducts"
+			],
+			[
+				"change",
+				"changeVisibility"
+			],
+			[
+				"produ",
+				"productImage"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"forDe",
+				"forDelete"
+			],
+			[
+				"remove",
+				"removePageAlert"
+			],
+			[
+				"convert",
+				"convertToDate"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"overlay-add-",
+				"overlay-add-product-variant"
+			],
+			[
+				"updateProdu",
+				"updateProductImages"
+			],
+			[
+				"getProduct",
+				"getProductImages"
+			],
+			[
+				"productV",
+				"productVariant"
+			],
+			[
+				"prodFea",
+				"prodFeaturedStart"
+			],
+			[
+				"tot",
+				"totalPages"
+			],
+			[
+				"pr",
+				"products"
+			],
+			[
+				"isUN",
+				"isUndefinedOrNull"
+			],
+			[
+				"specia",
+				"specialPriceStart"
+			],
+			[
+				"conver",
+				"convertToDate"
+			],
+			[
+				"spe",
+				"specialPriceEnd"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"saveP",
+				"saveProductVariant"
+			],
+			[
+				"catego",
+				"categoryIds"
+			],
+			[
+				"sub",
+				"subcategory"
+			],
+			[
+				"categ",
+				"categories"
+			],
+			[
+				"cat",
+				"catIds"
+			],
+			[
+				"subca",
+				"subcategory"
+			],
+			[
+				"index",
+				"indexOf"
+			],
+			[
+				"categor",
+				"categoryIds"
+			],
+			[
+				"des",
+				"deselectAll"
+			],
+			[
+				"upda",
+				"updateCategories"
+			],
+			[
+				"delete",
+				"deleteProduct"
+			],
+			[
+				"forDele",
+				"forDeleteProduct"
+			],
+			[
+				"v",
+				"v"
+			],
+			[
+				"varia",
+				"variant"
+			],
+			[
+				"productVa",
+				"productVariants"
+			],
+			[
+				"var",
+				"variants"
+			],
+			[
+				"max",
+				"maxQty"
+			],
+			[
+				"sear",
+				"searchInv"
+			],
+			[
+				"tota",
+				"totalQty"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"getPr",
+				"getProdVariant"
+			],
+			[
+				"getO",
+				"getOccupationList"
+			],
+			[
+				"spli",
+				"splitCode"
+			],
+			[
+				"getOc",
+				"getOccupationTitle"
+			],
+			[
+				"occup",
+				"occupation_code"
+			],
+			[
+				"en",
+				"entries"
+			],
+			[
+				"isUd",
+				"isUndefinedOrNull"
+			],
+			[
+				"int",
+				"int_code"
+			],
+			[
+				"co",
+				"country"
+			],
+			[
+				"fo",
+				"forEach"
+			],
+			[
+				"mini",
+				"minimum_salary"
+			],
+			[
+				"maxi",
+				"maximum_salary"
+			],
+			[
+				"job",
+				"job_type"
+			],
+			[
+				"html",
+				"html_str"
+			],
+			[
+				"outlet",
+				"outletList"
+			],
+			[
+				"outl",
+				"outlets"
+			],
+			[
+				"plain",
+				"plain_msg"
+			],
+			[
+				"find",
+				"find_paragraph_blocks"
+			],
+			[
+				"bd",
+				"body_content"
+			],
+			[
+				"pla",
+				"plain_msg"
+			],
+			[
+				"expec",
+				"expected_currency"
+			],
+			[
+				"iso_",
+				"iso_language"
+			],
+			[
+				"is",
+				"isic_item"
+			],
+			[
+				"ISI",
+				"ISIC"
+			],
+			[
+				"ISIC",
+				"ISIC_entries"
+			],
+			[
+				"ind",
+				"industry_list"
+			],
+			[
+				"input",
+				"input-group-addon"
+			],
+			[
+				"over",
+				"overflow-x"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"navba",
+				"navbar-height"
+			],
+			[
+				"navbar-",
+				"navbar-height"
+			],
+			[
+				"navbar",
+				"navbar-color"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"mont",
+				"month_diff"
+			],
+			[
+				"update",
+				"updateProducts"
+			],
+			[
+				"to",
+				"toRet"
+			],
+			[
+				"produc",
+				"product"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "keystone.js",
+			"settings":
+			{
+				"buffer_size": 2631,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/index.js",
+			"settings":
+			{
+				"buffer_size": 1833,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/middleware.js",
+			"settings":
+			{
+				"buffer_size": 1680,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/views/index.js",
+			"settings":
+			{
+				"buffer_size": 2712,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/views/blog.js",
+			"settings":
+			{
+				"buffer_size": 1745,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/views/news.js",
+			"settings":
+			{
+				"buffer_size": 1671,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/styles/site.less",
+			"settings":
+			{
+				"buffer_size": 5171,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/layouts/fbc.jade",
+			"settings":
+			{
+				"buffer_size": 4255,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/views/index.jade",
+			"settings":
+			{
+				"buffer_size": 3736,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/views/news.jade",
+			"settings":
+			{
+				"buffer_size": 2579,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 347.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 111.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/stanley/NodeJS/fbc/package.json",
+		"/Users/stanley/NodeJS/fbc/models/Event.js",
+		"/Users/stanley/NodeJS/fbc/templates/layouts/default.jade",
+		"/Applications/MAMP/htdocs/fbc/wp-content/themes/fbc-1.0/style.css",
+		"/Applications/MAMP/htdocs/fbc/wp-content/themes/fbc-1.0/footer.php",
+		"/Applications/MAMP/htdocs/fbc/wp-content/themes/fbc-1.0/header.php",
+		"/Applications/MAMP/htdocs/fbc/wp-content/themes/fbc-1.0/index.php",
+		"/Users/stanley/NodeJS/fbc/models/Post.js",
+		"/Users/stanley/NodeJS/fbc/templates/views/index.jade.bak",
+		"/Users/stanley/NodeJS/fbc/routes/views/blog.js",
+		"/Users/stanley/NodeJS/fbc/templates/views/blog.jade",
+		"/Users/stanley/NodeJS/fbc/models/User.js",
+		"/Users/stanley/NodeJS/fbc/routes/index.js",
+		"/Applications/MAMP/htdocs/fbc/wp-config.php",
+		"/Users/stanley/NodeJS/fbc/routes/views/post.js",
+		"/Users/stanley/NodeJS/test-cms/test-cms/templates/views/index.jade",
+		"/Users/stanley/NodeJS/test-cms/test-cms/templates/layouts/default.jade",
+		"/Users/stanley/Django/maax/maax/maaxjobs/locale/tl/LC_MESSAGES/django.po",
+		"/Users/stanley/Django/maax/maax/maaxjobs/locale/ms/LC_MESSAGES/django.po",
+		"/Users/stanley/Django/maax/maax/maaxjobs/locale/id/LC_MESSAGES/django.po",
+		"/Users/stanley/Django/maax/maax/maaxjobs/core/models.py",
+		"/Users/stanley/Django/maax/maax/maaxjobs/media/js/core.js",
+		"/Users/stanley/Django/maax/maax/maaxjobs/templates/core/ng-maax-profile.html",
+		"/Users/stanley/Django/maax/maax/maaxjobs/templates/core/languageModal.html",
+		"/Users/stanley/Django/maax/maax/maaxjobs/templates/core/ng-work.html",
+		"/Users/stanley/Django/maax/maax/maaxjobs/templates/core/edit-profile.html",
+		"/Users/stanley/Django/maax/maax/maaxjobs/locale/fr/LC_MESSAGES/django.po",
+		"/Users/stanley/Django/maax/maax/maaxjobs/locale/de/LC_MESSAGES/django.po",
+		"/Users/stanley/Downloads/MaaxClub_Tagalog.po",
+		"/Users/stanley/Django/maax/maax/maaxjobs/media/js/ng-i-am-hiring.js",
+		"/Users/stanley/Django/maax/maax/maaxjobs/templates/core/ng-i-am-hiring.html",
+		"/Users/stanley/Django/maax/maax/maaxjobs/templates/core/ng-jobs-i-want.html",
+		"/Users/stanley/Django/maax/maax/maaxjobs/templates/core/maax-profile.html",
+		"/Users/stanley/Django/maax/maax/maaxjobs/templates/core/i-am-hiring.html",
+		"/Users/stanley/Django/maax/maax/maaxjobs/templates/core/index.html",
+		"/Users/stanley/Django/maax/maax/maaxjobs/maaxjobs/settings.py",
+		"/Users/stanley/Django/maax/maax/maaxjobs/maaxjobs/urls.py",
+		"/Users/stanley/Django/maax/maax/maaxjobs/templates/base.html",
+		"/Users/stanley/Django/maax/maax/maaxjobs/templates/account/login.html",
+		"/Users/stanley/Django/maax/maax/maaxjobs/templates/account/signup.html",
+		"/Users/stanley/Django/maax/maax/maaxjobs/templates/account/email_confirm.html",
+		"/Users/stanley/Django/maax/maax/maaxjobs/templates/account/password_change.html",
+		"/Users/stanley/Django/maax/maax/maaxjobs/templates/core/education.html",
+		"/Users/stanley/Django/maax/maax/maaxjobs/templates/core/industryCodeModal.html",
+		"/Users/stanley/Django/maax/maax/maaxjobs/templates/core/occupationCodeModal.html",
+		"/Users/stanley/Django/maax/maax/maaxjobs/templates/core/work.html",
+		"/Users/stanley/Django/maax/maax/maaxjobs/core/isic2.py",
+		"/Users/stanley/Django/maax/maax/maaxjobs/core/isic.py",
+		"/Users/stanley/Django/maax/maax/maaxjobs/core/views.py",
+		"/Users/stanley/Django/maax/maax/maaxjobs/media/js/ng-maax.js",
+		"/Users/stanley/Django/maax/maax/maaxjobs/media/js/ng-work-experience.js",
+		"/Users/stanley/Django/maax/maax/maaxjobs/core/urls.py",
+		"/Users/stanley/Django/sashimi/mims-scraper/write-to-csv.py",
+		"/Users/stanley/Django/sashimi/mims-scraper/rewrite-json.py",
+		"/Users/stanley/Django/sashimi/sashimi-mongo/generate_report_csv.py",
+		"/Users/stanley/Django/sashimi/mims-scraper/deliverables/mims-121814-entries.json",
+		"/Users/stanley/Django/sashimi/mims-scraper/deliverables/biogesic.json",
+		"/Users/stanley/Django/sashimi/mims-scraper/deliverables/mims-121814.json",
+		"/Users/stanley/Django/sashimi/mims-scraper/mims-drug.py",
+		"/Users/stanley/Django/sashimi/mims-scraper/rewrite.cfg",
+		"/Users/stanley/Django/sashimi/mims-scraper/mims.py",
+		"/Applications/MAMP/htdocs/dashboard/public/js/tos-products.js",
+		"/Applications/MAMP/htdocs/dashboard/config/app.php",
+		"/Applications/MAMP/htdocs/dashboard/app/Models/TosProductVariant.php",
+		"/Applications/MAMP/htdocs/dashboard/resources/views/tos/catalogue/products/_addCategory.blade.php",
+		"/Applications/MAMP/htdocs/dashboard/resources/views/tos/catalogue/products/_newProduct.blade.php",
+		"/Applications/MAMP/htdocs/dashboard/resources/views/tos/catalogue/products/_viewProduct.blade.php",
+		"/Applications/MAMP/htdocs/dashboard/resources/views/partials/loggedin/_leftslider.blade.php",
+		"/Applications/MAMP/htdocs/dashboard/resources/views/partials/loggedin/_sidebar.blade.php",
+		"/Users/stanley/Django/maax/maax/requirements.txt",
+		"/Applications/MAMP/htdocs/dashboard/resources/views/tos/catalogue/categories.blade.php",
+		"/Applications/MAMP/htdocs/dashboard/app/Models/TosMember.php",
+		"/Applications/MAMP/htdocs/dashboard/app/Http/Controllers/ProductController.php",
+		"/Applications/MAMP/htdocs/dashboard/app/Http/Controllers/CustomersController.php",
+		"/Applications/MAMP/htdocs/dashboard/public/js/tos-categories.js",
+		"/Applications/MAMP/htdocs/dashboard/public/js/tos-orders-old.js",
+		"/Applications/MAMP/htdocs/dashboard/resources/views/tos/catalogue/products.blade.php",
+		"/Applications/MAMP/htdocs/dashboard/app/Models/TosCategory.php",
+		"/Applications/MAMP/htdocs/dashboard/public/js/tos-catalogue.js",
+		"/Applications/MAMP/htdocs/dashboard/public/css/stan.less",
+		"/Applications/MAMP/htdocs/dashboard/public/css/tos-bootstrap.less",
+		"/Applications/MAMP/htdocs/dashboard/app/Http/Controllers/CategoryController.php",
+		"/Applications/MAMP/htdocs/dashboard/app/Models/TosProduct.php",
+		"/Applications/MAMP/htdocs/dashboard/public/css/tos.less",
+		"/Applications/MAMP/htdocs/dashboard/public/js/tos-categories-old.js",
+		"/Applications/MAMP/htdocs/dashboard/public/css/tos.css",
+		"/Applications/MAMP/htdocs/dashboard/public/js/tos.js",
+		"/Applications/MAMP/htdocs/dashboard/resources/views/tos/catalogue/products/_editProductImage.php",
+		"/Applications/MAMP/htdocs/dashboard/resources/views/tos/catalogue/products/_addProductVariant.php",
+		"/Users/stanley/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/stanley/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Applications/MAMP/htdocs/dashboard/resources/views/tos/catalogue/products/_addVariant.blade.php",
+		"/Applications/MAMP/htdocs/dashboard/resources/views/tos/catalogue/variantgroups.blade.php",
+		"/Applications/MAMP/htdocs/dashboard/public/js/tos-loggedin.js",
+		"/Applications/MAMP/htdocs/dashboard/app/Http/Controllers/ProductVariantController.php",
+		"/Applications/MAMP/htdocs/dashboard/app/Http/Controllers/ImageController.php",
+		"/Applications/MAMP/htdocs/mickeycharny/wp-content/themes/mc-1.0/style.less",
+		"/Applications/MAMP/htdocs/mickeycharny/wp-content/themes/mc-1.0/header.php",
+		"/Applications/MAMP/htdocs/mickeycharny/wp-content/themes/mc-1.0/index.php",
+		"/Applications/MAMP/htdocs/mickeycharny/wp-content/themes/mc-1.0/page-blog.php",
+		"/Applications/MAMP/htdocs/mickeycharny/wp-content/themes/mc-1.0/sidebar.php",
+		"/Applications/MAMP/htdocs/mickeycharny/wp-content/themes/mc-1.0/page.php",
+		"/Applications/MAMP/htdocs/mickeycharny/wp-content/themes/mc-1.0/footer.php",
+		"/Applications/MAMP/htdocs/mickeycharny/wp-content/themes/mc-1.0/page-links.php",
+		"/Applications/MAMP/htdocs/dashboard/app/Http/routes.php",
+		"/Users/stanley/Django/kingfisher/kingfisher-mongodb/kingfisher/chat/views.py",
+		"/Applications/MAMP/htdocs/dashboard/resources/views/tos/catalogue/products/_confirmEditInventory.blade.php",
+		"/Applications/MAMP/htdocs/dashboard/resources/views/tos/catalogue/products/_confirmMassMoveCategory.blade.php",
+		"/Applications/MAMP/htdocs/dashboard/resources/views/tos/catalogue/products/_confirmMassDelete.blade.php",
+		"/Applications/MAMP/htdocs/dashboard/resources/views/tos/catalogue/products/_confirmDelete.blade.php",
+		"/Applications/MAMP/htdocs/dashboard/resources/views/tos/posts/posts.blade.php",
+		"/Users/stanley/Django/maax/maax/maaxjobs/templates/core/jobs-i-want.html",
+		"/Users/stanley/Django/maax/maax/maaxjobs/core/forms.py",
+		"/Users/stanley/Django/mapper/mapper/employees/views.py",
+		"/Users/stanley/Django/maax/maax/maaxjobs/core/templatetags/core_extras.py",
+		"/Applications/MAMP/htdocs/ymg/wp-config.php",
+		"/Applications/MAMP/htdocs/dashboard/resources/views/tos.blade.php",
+		"/Applications/MAMP/htdocs/dashboard/resources/views/tos/posts/_addPostForm.blade.php",
+		"/Applications/MAMP/htdocs/dashboard/app/Models/TosImage.php",
+		"/Applications/MAMP/htdocs/dashboard/app/Models/TosPost.php",
+		"/Users/stanley/Documents/_headerPostsForm.blade.php",
+		"/private/var/folders/1k/lmkj2kns34n17p6yr5l4rk7m0000gn/T/6ad0e58e-d769-4d54-9f9b-cb3fa6d94ba0/var/www/site/releases/20150217141753/app/code/local/Icube/Sales/controllers/PurchaseController.php",
+		"/private/var/folders/1k/lmkj2kns34n17p6yr5l4rk7m0000gn/T/6ad0e58e-d769-4d54-9f9b-cb3fa6d94ba0/var/www/site/releases/20150217141753/app/code/local/Icube/Tosinventory/Model/Api.php",
+		"/private/var/folders/1k/lmkj2kns34n17p6yr5l4rk7m0000gn/T/6ad0e58e-d769-4d54-9f9b-cb3fa6d94ba0/var/www/site/releases/20150217141753/app/design/frontend/gnc/gnc/template/sales/purchase/history.phtml",
+		"/private/var/folders/1k/lmkj2kns34n17p6yr5l4rk7m0000gn/T/6ad0e58e-d769-4d54-9f9b-cb3fa6d94ba0/var/www/site/releases/20150217141753/app/code/core/Mage/Checkout/controllers/CartController.php",
+		"/private/var/folders/1k/lmkj2kns34n17p6yr5l4rk7m0000gn/T/6ad0e58e-d769-4d54-9f9b-cb3fa6d94ba0/var/www/site/releases/20150217141753/app/design/frontend/gnc/gnc/template/catalog/product/view.phtml",
+		"/private/var/folders/1k/lmkj2kns34n17p6yr5l4rk7m0000gn/T/8abbb6c7-c78d-4fd0-9251-83ab2a0a7c67/var/www/site/releases/20150217141753/skin/frontend/gnc/gnc/css/mediaappearance/media.css",
+		"/Applications/MAMP/htdocs/bakerzin-main/config.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"!\\n",
+			">\\n",
+			"i\\n",
+			"-\\n",
+			".\\n",
+			"\\n\"",
+			"!\\n",
+			">\\n",
+			"-\\n\"",
+			"-\\n",
+			".\\n\"",
+			"Welcome to",
+			"jobs-i-want",
+			"jobs_i_want",
+			"MaaxJob",
+			"MaaxGo",
+			"MaaxJobs",
+			"MaaxJob",
+			"MaaxGo",
+			"start",
+			"isco",
+			"occ_code",
+			"cls",
+			"std",
+			"Occupation",
+			"occupation",
+			"isco",
+			"occupation",
+			"maax.modal",
+			"checkDisable",
+			"modal",
+			"<span>",
+			"billingAddress",
+			"Bill",
+			"jobs.",
+			"jobs",
+			"_user_id",
+			"job",
+			"jobs",
+			"start",
+			"jobs",
+			"[{ billing",
+			"jobs",
+			"catalogue",
+			"btn",
+			"catalogue",
+			"tos.select",
+			"selectedProducts",
+			"selectedProducts2",
+			"selectedProducts",
+			"col-lg-3 _image",
+			"catalogue.selectedProducts",
+			"catalogue.selectedProducts = [];",
+			"col-lg-2 _image",
+			"col-lg-1 _actions",
+			"removePageAlert",
+			"addPageAlert",
+			"modal-box",
+			"overlay",
+			"loadingContent",
+			"18px",
+			"overlay",
+			"._footer",
+			"variantSearch",
+			"_id",
+			"productForm",
+			"productForm.$dirty",
+			"<form",
+			"tosForm.$dirty",
+			"</form>",
+			"productFeatured",
+			"productDesc",
+			"!angular.isUndefinedOrNull(",
+			"product.variant",
+			"col-md",
+			"col--md",
+			">\n",
+			"$timeout",
+			"console.log(\"FUNC:: \" + arguments.callee.toString());",
+			"console.log(arguments.callee.toString()",
+			"arguments.callee.toString().substr('function '.length).substr(0, arguments.callee.toString().indexOf('('))",
+			"console.log(",
+			"tosCatalogue",
+			"._price",
+			"MM/DD",
+			".utc",
+			"._price",
+			"tosCatalogue",
+			"''",
+			"isco",
+			"ng-",
+			"typeahead",
+			"#}",
+			"{# trans",
+			"django_countries",
+			"countries",
+			"countryControl",
+			"#",
+			"}}",
+			"{{",
+			"%}",
+			"{%",
+			"Upload",
+			"_actions",
+			":focus",
+			"industry_code_list",
+			"updateIndustryRead",
+			"industryCatTwo",
+			"._id",
+			", true",
+			"ng-model=\"\"",
+			"  ",
+			"category.",
+			"'category.",
+			"\"category.",
+			"category.",
+			"catCtrl",
+			"newProduct",
+			"np",
+			"ng-model='product",
+			"ng-model=\"product",
+			"np",
+			"token",
+			"  ",
+			"print",
+			".btn",
+			"btn-update",
+			"initCreateForm"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"!",
+			">",
+			"i",
+			"-",
+			".",
+			"\"",
+			"!",
+			">",
+			"-\"",
+			".\"",
+			"i-am-hiring",
+			"i_am_hiring",
+			"MaaxClub",
+			"end",
+			"isic",
+			"ind_code",
+			"cla",
+			"ind",
+			"Industry",
+			"industry",
+			"isic",
+			"industry",
+			"maax.modal.occupationModal",
+			"<span ng-show=\"!selectedOrder.billingAddress.editMode\">",
+			"shippingAddress",
+			"Ship",
+			"maax.",
+			"maax",
+			"work",
+			"maax",
+			"end",
+			"maax",
+			"[{ selectedOrder.billingAddress",
+			"maax",
+			"tos",
+			"selectedProducts",
+			"col-lg-3 _image",
+			"col-lg-2 _actions",
+			"20px",
+			"tosForm",
+			"tosForm.$dirty",
+			"productForm.$dirty",
+			"prodFeatured",
+			"prodDesc",
+			"angular.exists(",
+			"col-lg",
+			"",
+			"arguments.callee.toString()",
+			"tos",
+			"DD/MM",
+			"",
+			"tos",
+			"[]",
+			"modal",
+			"%}",
+			"{% trans",
+			"%",
+			"#}",
+			"{#",
+			"#}",
+			"{#",
+			", false",
+			"",
+			"    ",
+			"'tosCatalogue.",
+			"\"tosCatalogue.",
+			"tosCatalogue.",
+			"tosCatalogue",
+			"catalogue",
+			"tosCatalogue",
+			"catalogue",
+			"ng-model='newProduct.product",
+			"ng-model=\"newProduct.product",
+			"$scope",
+			"    ",
+			"false",
+			"$debug",
+			"variant",
+			"Variant",
+			"bindSaveVariantGroup()",
+			"    ",
+			"false",
+			"col-lg",
+			"    ",
+			"' %}\"></script>",
+			"' %}",
+			"{% static '",
+			"    ",
+			"",
+			"\"\"",
+			"public $",
+			" = ;",
+			" = '';",
+			"col-lg",
+			"angle",
+			"text-color",
+			"'",
+			"$entry",
+			"</label>",
+			"<label>",
+			"form-group",
+			"<input class=\"form-control\"",
+			"</label>",
+			"<label>",
+			"form-group",
+			"sAddr",
+			"$shippingAddress",
+			"$uri[$base_uri]",
+			"</a></li>",
+			"foodhall",
+			"$SESSION_ID",
+			"to_email",
+			"$productNames",
+			"$produktoNames",
+			"'",
+			"    ",
+			"",
+			"province.psgc",
+			"province.iso",
+			"province.region.iso",
+			".encode('utf-8'),",
+			",",
+			", item.",
+			"",
+			"IntField",
+			"psgc_list",
+			"<li style=\"list-style-position: inside;\">",
+			"$order['productVariantId']"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "keystone.js",
+					"settings":
+					{
+						"buffer_size": 2631,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2092,
+								2092
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "routes/index.js",
+					"settings":
+					{
+						"buffer_size": 1833,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1407,
+								1407
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "routes/middleware.js",
+					"settings":
+					{
+						"buffer_size": 1680,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								783,
+								783
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 286.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "routes/views/index.js",
+					"settings":
+					{
+						"buffer_size": 2712,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2420,
+								2420
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1006.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "routes/views/blog.js",
+					"settings":
+					{
+						"buffer_size": 1745,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1012,
+								1012
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 516.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "routes/views/news.js",
+					"settings":
+					{
+						"buffer_size": 1671,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								997,
+								997
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 307.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "public/styles/site.less",
+					"settings":
+					{
+						"buffer_size": 5171,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3812,
+								3817
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2928.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "templates/layouts/fbc.jade",
+					"settings":
+					{
+						"buffer_size": 4255,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4146,
+								4146
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 740.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "templates/views/index.jade",
+					"settings":
+					{
+						"buffer_size": 3736,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								358,
+								358
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "templates/views/news.jade",
+					"settings":
+					{
+						"buffer_size": 2579,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								256,
+								271
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.487461911783,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"pi",
+				"/Users/stanley/NodeJS/test-cms/test-cms/templates/views/index.jade"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 206.0,
+	"status_bar_visible": true
+}

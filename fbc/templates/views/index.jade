@@ -1,0 +1,112 @@
+extends ../layouts/fbc
+
+block content
+	.row.banner: .container: .slogan
+		span(class="headline") Attend the Hour of Hope every Sunday at 9AM
+
+	.row.countdown: .container
+		if data.latestEvent != ''
+			input(type="hidden" id="eventDate", value=data.latestEvent.eventDateFormatted)
+		.col-md-3.upcoming-events
+			p Upcoming Events
+		.col-md-1.calendar-icon
+			i(class="fa fa-calendar")
+		.col-md-1.box
+			span(class="value", id="eventDays") 29
+			span(class="label") Days
+		.col-md-1.box
+			span(class="value", id="eventHours") 14
+			span(class="label") HR
+		.col-md-1.box
+			span(class="value", id="eventMinutes") 21
+			span(class="label") MIN
+		.col-md-1.box
+			span(class="value", id="eventSeconds") 31
+			span(class="label") SEC
+		.col-md-3.view-events
+			p View All Events <i class="fa fa-caret-right"></i>
+
+	.row.about-fbc: .container
+		.border-caret
+			i(class="fa fa-caret-down")
+		._content
+			._section-header
+				span(class="title") <span class="thin">ABOUT</span> FBC
+
+			.row
+				.col-md-8
+					if data.aboutFbc
+						._paragraph!= data.aboutFbc.content.extended
+					else
+						p(class="_paragraph") Please enter "About FBC" information.
+
+				.col-md-4
+					blockquote(class="blockquote-reverse")
+						p For God so love the world, that He gave His only Son, that whoever believes in Him, should not perish but have everlasting life.
+						footer John 3:16
+
+			.row
+				.col-md-4
+					.thumbnail
+						img(src="images/P3151458.jpg")
+						.caption: h3 <span class="thin">One</span> God
+					.border-caret.red: i(class="fa fa-caret-down")
+				.col-md-4
+					.thumbnail
+						img(src="images/P3151531.jpg")
+						.caption: h3 <span class="thin">One</span> Church
+					.border-caret.red: i(class="fa fa-caret-down")
+				.col-md-4
+					.thumbnail
+						img(src="images/P3010900.jpg")
+						.caption: h3 <span class="thin">One</span> Family
+					.border-caret.red: i(class="fa fa-caret-down")
+
+	.row.join-sg: .container
+		.col-md-9
+			span(class="title") <span class="thin">Join A</span> Small Group
+			p
+				| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitacupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		.col-md-3
+
+	.row.latest-box: .container
+		.col-md-6.box
+			.title-header: span(class="title") <span class="thin">Daily</span> Devotion
+			.entries
+				if data.dailyDevotions.length
+					each post in data.dailyDevotions
+						.entry
+							a(class="title", href='/daily-devotion/' + post.slug) #{post.title}
+							span(class="date") Posted on #{post._.publishedDate.format('MMMM Do, YYYY')} 
+				else
+					.entry
+						span(class="title") No daily devotion post.
+						span(class="date") Stay tuned for new posts.
+		.col-md-6.box
+			.title-header: span(class="title") <span class="thin">Latest</span> Sermons
+			.entries
+				if data.sermons.length
+					each post in data.sermons
+						.entry
+							a(class="title", href='/sermon/' + post.slug) #{post.title}
+							span(class="date") Posted on #{post._.publishedDate.format('MMMM Do, YYYY')} 
+				else
+					.entry
+						span(class="title") No sermon postings.
+						span(class="date") Stay tuned for new posts.
+
+block js
+	script.
+		$(document).ready(function(){
+			var eventDate = moment($("#eventDate").val(), "DD/MM/YYYY");
+			$("#eventDate").countdown(eventDate.format("MM/DD/YYYY"), function(event) {
+				var days = event.offset.days;
+				if(event.offset.weeks > 0){
+					days += event.offset.weeks * 7;
+				}
+				$("#eventDays").text(days);
+				$("#eventHours").text(event.offset.hours);
+				$("#eventMinutes").text(event.offset.minutes);
+				$("#eventSeconds").text(event.offset.seconds);
+			});
+		});
