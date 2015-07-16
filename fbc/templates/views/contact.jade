@@ -1,4 +1,4 @@
-extends ../layouts/default
+extends ../layouts/fbc
 
 block intro
 	.container
@@ -8,8 +8,8 @@ block content
 	.container
 		if enquirySubmitted
 			h3 Thanks for getting in touch.
-		else
-			.row: .col-sm-8.col-md-6
+		.row.contact-us 
+			.col-md-6
 				form(method='post')
 					input(type='hidden', name='action', value='contact')
 					.form-group(class=validationErrors.name ? 'has-error' : null)
@@ -21,14 +21,25 @@ block content
 					.form-group
 						label Phone
 						input(type='text', name='phone', value=formData.phone, placeholder='(optional)').form-control
-					.form-group(class=validationErrors.enquiryType ? 'has-error' : null)
-						label What are you contacting us about?
-						select(name='enquiryType').form-control
-							option(value='') (select one)
-							each type in enquiryTypes
-								option(value=type.value, selected=formData.enquiryType == type.value)= type.label
+					//- .form-group(class=validationErrors.enquiryType ? 'has-error' : null)
+					//- 	label What are you contacting us about?
+					//- 	select(name='enquiryType').form-control
+					//- 		option(value='') (select one)
+					//- 		each type in enquiryTypes
+					//- 			option(value=type.value, selected=formData.enquiryType == type.value)= type.label
 					.form-group(class=validationErrors.message ? 'has-error' : null)
 						label Message
 						textarea(name='message', placeholder='Leave us a message...' rows=4).form-control= formData.message
 					.form-actions
 						button(type='submit').btn.btn-primary Send
+
+			.col-md-6
+				.map
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3823.3217971724134!2d120.31655389999999!3d16.610611300000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33918e41312906d5%3A0x730d93ddbf0809b8!2sFirst+Baptist+Church!5e0!3m2!1sen!2sph!4v1437063676381" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+					address
+						| First Baptist Church <br>
+						| Quezon Avenue <br>
+						| San Fernando City <br>
+						| La Union 2500 <br>
+						| <i class="fa fa-phone"></i> (72) 607 09 69

@@ -20,6 +20,7 @@ exports = module.exports = function(req, res) {
 			sermon: '',
 		},
 		aboutFbc: '',
+		joinSG: '',
 		latestEvent: '',
 	};
 
@@ -95,6 +96,21 @@ exports = module.exports = function(req, res) {
 
 		q.exec(function(err, results) {
 			locals.data.aboutFbc = results;
+			next(err);
+		});
+		
+	});
+
+	// Load the & Join a Small Group
+	view.on('init', function(next) {
+
+		var Post = keystone.list('Post');
+		var q = Post.model.findOne({ slug: 'join-a-small-group'})
+			.where('state', 'published')
+			.populate('author categories');
+
+		q.exec(function(err, results) {
+			locals.data.joinSG = results;
 			next(err);
 		});
 		

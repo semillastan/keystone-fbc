@@ -96,10 +96,6 @@ keystone.set('nav', {
 	'events': 'events'
 });
 
-// Set Mandrill account
-keystone.set('mandrill api key', 'oi2MVc2UhLcJ77WbAd0hKw');
-keystone.set('mandrill username', 'semillastan@gmail.com');
-
 // Start Keystone to connect to your database and initialise the web server
 
 keystone.start();

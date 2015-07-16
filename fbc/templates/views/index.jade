@@ -9,7 +9,7 @@ block content
 			if (typeof(data.latestEvent.eventDateFormatted) !== 'undefined')
 				input(type="hidden" id="eventDate", value=data.latestEvent.eventDateFormatted)
 		.col-md-3.upcoming-events
-			p Upcoming Events
+			p!=data.latestEvent.title
 		.col-md-1.calendar-icon
 			i(class="fa fa-calendar")
 		.col-md-1.box
@@ -25,7 +25,7 @@ block content
 			span(class="value", id="eventSeconds") 31
 			span(class="label") SEC
 		.col-md-3.view-events
-			p View All Events <i class="fa fa-caret-right"></i>
+			a(href="/events") View All Events <i class="fa fa-caret-right"></i>
 
 	.row.about-fbc: .container
 		.border-caret
@@ -39,7 +39,7 @@ block content
 					if data.aboutFbc
 						._paragraph!= data.aboutFbc.content.extended
 					else
-						p(class="_paragraph") Please enter "About FBC" information.
+						p(class="_paragraph") Please create a post with title "About FBC"
 
 				.col-md-4
 					blockquote(class="blockquote-reverse")
@@ -66,8 +66,10 @@ block content
 	.row.join-sg: .container
 		.col-md-9
 			span(class="title") <span class="thin">Join A</span> Small Group
-			p
-				| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitacupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			if data.joinSG
+				._paragraph!= data.joinSG.content.extended
+			else
+				p(class="_paragraph") Please create a post with title "Join a Small Group"
 		.col-md-3
 
 	.row.latest-box: .container
