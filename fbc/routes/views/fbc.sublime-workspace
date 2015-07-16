@@ -519,14 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.js",
-			"settings":
-			{
-				"buffer_size": 2823,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -560,6 +552,11 @@
 	},
 	"file_history":
 	[
+		"/Users/stanley/NodeJS/fbc/routes/middleware.js",
+		"/Users/stanley/NodeJS/keystone-fbc/fbc/routes/views/index.js",
+		"/Users/stanley/NodeJS/keystone-fbc/fbc/keystone.js",
+		"/Users/stanley/NodeJS/fbc/keystone.js",
+		"/Users/stanley/NodeJS/fbc/routes/views/index.js",
 		"/private/var/folders/1k/lmkj2kns34n17p6yr5l4rk7m0000gn/T/6ad0e58e-d769-4d54-9f9b-cb3fa6d94ba0/var/www/site/releases/20150217141753/app/design/frontend/gnc/gnc/template/persistent/customer/form/register.phtml",
 		"/private/var/folders/1k/lmkj2kns34n17p6yr5l4rk7m0000gn/T/6ad0e58e-d769-4d54-9f9b-cb3fa6d94ba0/var/www/site/releases/20150217141753/app/code/local/Icube/Tosmember/Model/Api.php",
 		"/private/var/folders/1k/lmkj2kns34n17p6yr5l4rk7m0000gn/T/6ad0e58e-d769-4d54-9f9b-cb3fa6d94ba0/var/www/site/releases/20150217141753/app/design/frontend/gnc/gnc/template/customer/account/navigation.phtml",
@@ -682,12 +679,7 @@
 		"/Applications/MAMP/htdocs/dashboard/resources/views/tos/catalogue/products/_confirmMassMoveCategory.blade.php",
 		"/Applications/MAMP/htdocs/dashboard/resources/views/tos/catalogue/products/_confirmMassDelete.blade.php",
 		"/Applications/MAMP/htdocs/dashboard/resources/views/tos/catalogue/products/_confirmDelete.blade.php",
-		"/Applications/MAMP/htdocs/dashboard/resources/views/tos/posts/posts.blade.php",
-		"/Users/stanley/Django/maax/maax/maaxjobs/templates/core/jobs-i-want.html",
-		"/Users/stanley/Django/maax/maax/maaxjobs/core/forms.py",
-		"/Users/stanley/Django/mapper/mapper/employees/views.py",
-		"/Users/stanley/Django/maax/maax/maaxjobs/core/templatetags/core_extras.py",
-		"/Applications/MAMP/htdocs/ymg/wp-config.php"
+		"/Applications/MAMP/htdocs/dashboard/resources/views/tos/posts/posts.blade.php"
 	],
 	"find":
 	{
@@ -978,36 +970,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.js",
-					"settings":
-					{
-						"buffer_size": 2823,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		},
 		{
