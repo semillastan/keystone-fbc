@@ -110,9 +110,17 @@ exports = module.exports = function(req, res) {
 			.limit(1);
 
 		q.exec(function(err, results) {
-			locals.data.latestEvent = results[0];
-			locals.data.latestEvent.eventDateFormatted = moment(locals.data.latestEvent.eventDate).format("DD/MM/YYYY");
-			next(err);
+			if(results){
+				locals.data.latestEvent = results[0];
+				if(locals.data.latestEvent){
+					locals.data.latestEvent.eventDateFormatted = moment(locals.data.latestEvent.eventDate).format("DD/MM/YYYY");
+					next(err);
+				}else{
+					next();
+				}
+			}else{
+				next();
+			}
 		});
 		
 	});

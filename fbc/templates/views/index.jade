@@ -6,7 +6,8 @@ block content
 
 	.row.countdown: .container
 		if data.latestEvent != ''
-			input(type="hidden" id="eventDate", value=data.latestEvent.eventDateFormatted)
+			if (typeof(data.latestEvent.eventDateFormatted) !== 'undefined')
+				input(type="hidden" id="eventDate", value=data.latestEvent.eventDateFormatted)
 		.col-md-3.upcoming-events
 			p Upcoming Events
 		.col-md-1.calendar-icon
