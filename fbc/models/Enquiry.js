@@ -16,9 +16,9 @@ Enquiry.add({
 	email: { type: Types.Email, required: true },
 	phone: { type: String },
 	enquiryType: { type: Types.Select, options: [
-		{ value: 'message', label: 'Just leaving a message' },
-		{ value: 'question', label: 'I\'ve got a question' },
-		{ value: 'other', label: 'Something else...' }
+		{ value: 'suggestion', label: 'Suggestion/Recommendation' },
+		{ value: 'question', label: 'Question' },
+		{ value: 'other', label: 'Others' }
 	] },
 	message: { type: Types.Markdown, required: true },
 	createdAt: { type: Date, default: Date.now }
@@ -51,7 +51,7 @@ Enquiry.schema.methods.sendNotificationEmail = function(callback) {
 			to: admins,
 			from: {
 				name: 'FBC',
-				email: 'contact@fbc.com'
+				email: 'stanley@teachercare.me'
 			},
 			subject: 'New Enquiry for FBC',
 			enquiry: enquiry
